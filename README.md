@@ -10,6 +10,12 @@ Ce dépôt sert de source de mises à jour au plugin :
 | `catalog.lua` | liste des mods publiés (version, taille, empreinte) et version du plugin |
 | `packages/*.ma3mod` | paquets de mods, **chiffrés** : lisibles uniquement avec le mot de passe MA3 Mods |
 | `plugin/MA3Mods.xml` | plugin MA3 Mods (moteur, sans mods) à importer dans le show |
+| `MA3Mods-USB-key.zip` | **prêt à partager** : le plugin dans l'arborescence de clé USB (`grandMA3/…/FDPlugins/MA3Mods/`) + mode d'emploi |
+
+## Démarrage rapide
+Décompresser `MA3Mods-USB-key.zip` à la racine d'une clé USB, importer `MA3Mods.xml` dans le show, puis
+« Update (Internet) » (mot de passe) et activer les mods. Le plugin sait aussi préparer lui-même une clé vierge
+(liste « USB key ») : il y crée le dossier et y copie le plugin prêt à importer.
 
 ## Fonctionnement
 - Le plugin ne contient aucun mod ; les mods sont copiés sur une clé USB (`FDPlugins/MA3Mods/`).
