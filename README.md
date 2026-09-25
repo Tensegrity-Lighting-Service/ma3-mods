@@ -3,6 +3,8 @@
 Mods for the native grandMA3 user interface, installed and removed from the console with the **MA3 Mods** plugin
 (Tensegrity Lighting Service — Florian Declercq).
 
+> **Status: tested on grandMA3 onPC only — not yet tested on console hardware.**
+
 This repository is the update source of the plugin:
 
 | File | Purpose |
@@ -32,4 +34,4 @@ Unzip `MA3Mods-USB-key.zip` at the root of a USB key, import `MA3Mods.xml` into 
   (curl or wget).
 - MA must be restarted after each change.
 
-Validated MA versions: 2.5.0.3, 2.5.1.0.
+Validated MA versions (onPC): 2.5.0.3, 2.5.1.0.
