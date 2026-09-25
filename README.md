@@ -22,8 +22,8 @@ Unzip `MA3Mods-USB-key.zip` at the root of a USB key, import `MA3Mods.xml` into 
 ## Mods
 | Mod | What it does |
 |---|---|
-| MAtricks Easy Offset | Adds Delay Offset and Phase Offset sliders under From/To (X, Y, Z) in every MAtricks editor: swipe to shift From and To together. |
-| Recipe Edit Selection Fix | Sequence Sheet recipe area: the tool button "Edit selection" opens every recipe selected with the lasso, instead of only the last cell. |
+| MAtricks Easy Offset (onPC only) | Adds Delay Offset and Phase Offset sliders under From/To (X, Y, Z) in every MAtricks editor: swipe to shift From and To together. |
+| Recipe Edit Selection Fix (onPC only) | Sequence Sheet recipe area: the tool button "Edit selection" opens every recipe selected with the lasso, instead of only the last cell. |
 
 ## How it works
 - The plugin contains no mod; mods live on a USB key (`FDPlugins/MA3Mods/`).
