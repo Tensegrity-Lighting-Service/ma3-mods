@@ -3,7 +3,7 @@ return {
   format = 1,
   plugin = { version = "2.1.2", file = "plugin/MA3Mods.xml" },
   mods = {
-    { key = "MAtricksOffset", version = "0.1.3", name = "MAtricks Offset", package = "packages/MAtricksOffset-0.1.3.ma3mod", size = 41991, fnv = "41290737" },
-    { key = "RecipeMultiEdit", version = "1.0.0", name = "Recipe Edit Selection Fix", package = "packages/RecipeMultiEdit-1.0.0.ma3mod", size = 4355, fnv = "493c85c8" },
+    { key = "MAtricksOffset", version = "0.1.3", name = "MAtricks Easy Offset", package = "packages/MAtricksOffset-0.1.3.ma3mod", size = 41999, fnv = "fba433e9" },
+    { key = "RecipeMultiEdit", version = "1.0.0", name = "Recipe Edit Selection Fix", package = "packages/RecipeMultiEdit-1.0.0.ma3mod", size = 4355, fnv = "6f091287" },
   },
 }
