@@ -1,29 +1,35 @@
 # MA3 Mods
 
-Mods de l'interface native grandMA3, installables et désinstallables depuis la console avec le plugin **MA3 Mods**
+Mods for the native grandMA3 user interface, installed and removed from the console with the **MA3 Mods** plugin
 (Tensegrity Lighting Service — Florian Declercq).
 
-Ce dépôt sert de source de mises à jour au plugin :
+This repository is the update source of the plugin:
 
-| Fichier | Rôle |
+| File | Purpose |
 |---|---|
-| `catalog.lua` | liste des mods publiés (version, taille, empreinte) et version du plugin |
-| `packages/*.ma3mod` | paquets de mods, **chiffrés** : lisibles uniquement avec le mot de passe MA3 Mods |
-| `plugin/MA3Mods.xml` | plugin MA3 Mods (moteur, sans mods) à importer dans le show |
-| `MA3Mods-USB-key.zip` | **prêt à partager** : le plugin dans l'arborescence de clé USB (`grandMA3/…/FDPlugins/MA3Mods/`) + mode d'emploi |
+| `catalog.lua` | published mods (version, size, checksum) and plugin version |
+| `packages/*.ma3mod` | mod packages, **encrypted**: readable only with the MA3 Mods password |
+| `plugin/MA3Mods.xml` | the MA3 Mods plugin (engine only, no mods) to import into the show |
+| `MA3Mods-USB-key.zip` | **ready to share**: the plugin inside the USB key folder structure (`grandMA3/…/FDPlugins/MA3Mods/`) + quick guide |
 
-## Démarrage rapide
-Décompresser `MA3Mods-USB-key.zip` à la racine d'une clé USB, importer `MA3Mods.xml` dans le show, puis
-« Update (Internet) » (mot de passe) et activer les mods. Le plugin sait aussi préparer lui-même une clé vierge
-(liste « USB key ») : il y crée le dossier et y copie le plugin prêt à importer.
+## Quick start
+Unzip `MA3Mods-USB-key.zip` at the root of a USB key, import `MA3Mods.xml` into the show, then use
+"Update (Internet)" (password) and switch the mods on. The plugin can also prepare an empty USB key by itself
+("USB key" drop-down): it creates the folder and copies itself there, ready to import.
 
-## Fonctionnement
-- Le plugin ne contient aucun mod ; les mods sont copiés sur une clé USB (`FDPlugins/MA3Mods/`).
-- Les mods sont posés par petits blocs dans les fichiers de l'interface MA, chacun précédé d'un marqueur qui contient
-  les lignes d'origine : désinstallation et « Restaurer la console » fonctionnent toujours, même sans la clé, et les
-  modifications d'autres plugins sont préservées.
-- La mise à jour est manuelle (bouton), protégée par mot de passe, et ne contacte GitHub que si la station a accès à
-  Internet.
-- Un redémarrage de MA est nécessaire après chaque changement.
+## Mods
+| Mod | What it does |
+|---|---|
+| MAtricks Easy Offset | Adds Delay Offset and Phase Offset sliders under From/To (X, Y, Z) in every MAtricks editor: swipe to shift From and To together. |
+| Recipe Edit Selection Fix | Sequence Sheet recipe area: the tool button "Edit selection" opens every recipe selected with the lasso, instead of only the last cell. |
 
-Versions de MA validées : 2.5.0.3, 2.5.1.0.
+## How it works
+- The plugin contains no mod; mods live on a USB key (`FDPlugins/MA3Mods/`).
+- Mods are applied as small blocks in the MA interface files, each preceded by a marker that holds the original
+  lines: switching a mod off and "Restore console" always work, even without the key, and changes made by other
+  plugins are preserved.
+- Updates are manual (button), password-protected, and only contact GitHub when the station has Internet access
+  (curl or wget).
+- MA must be restarted after each change.
+
+Validated MA versions: 2.5.0.3, 2.5.1.0.
