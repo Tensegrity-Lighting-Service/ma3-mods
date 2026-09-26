@@ -23,7 +23,7 @@ Unzip `MA3Mods-USB-key.zip` at the root of a USB key, import `MA3Mods.xml` into 
 | Mod | What it does |
 |---|---|
 | MAtricks Easy Offset (onPC only) | Adds Delay Offset and Phase Offset sliders under From/To (X, Y, Z) in every MAtricks editor: swipe to shift From and To together. |
-| Recipe Enhancer (onPC only) | Recipe area (Sequence Sheet, Edit Sequence, Edit selection editor): a filter box above each column (type to filter, combined), green/pink funnels to show only standard or only phaser recipes, a clear-filter button; the tool button "Edit selection" opens every recipe selected with the lasso; the Values popup filter searches the presets of all pools. |
+| Recipe Enhancer (onPC only) | Sequence Sheet and recipe area: a filter box above each column for recipes (Tags, Enabled, Selection, Selection Mode, Values, Filter, MAtricks) and for cues (No, Name, Command) — type to filter, combined, red text when nothing matches, nothing stored; green/pink funnels to show only standard or only phaser recipes and a clear-filter button; the tool button "Edit selection" opens every recipe selected with the lasso; the Values popup filter searches the presets of all pools. |
 | Special Dialog Tools (onPC only) | Shaper and Color special dialogs: a Resolution button next to View / Control / Link (Color Space) makes the dialog encoders finer — Coarse ×1, Fine ×0.1, Increment ×0.01, remembered per user and per dialog. Shaper: Mirror 1/3, Mirror 2/4 and Mirror Rot buttons in the encoder bar (the native Mirror Bar functions, hidden by default). |
 
 ## How it works
