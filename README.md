@@ -24,7 +24,7 @@ Unzip `MA3Mods-USB-key.zip` at the root of a USB key, import `MA3Mods.xml` into 
 |---|---|
 | MAtricks Easy Offset (onPC only) | Adds Delay Offset and Phase Offset sliders under From/To (X, Y, Z) in every MAtricks editor: swipe to shift From and To together. |
 | Recipe Edit Selection Fix (onPC only) | Sequence Sheet recipe area: the tool button "Edit selection" opens every recipe selected with the lasso, instead of only the last cell. |
-| Special Dialog Encoder Resolution (onPC only) | Shaper and Color special dialogs: a Resolution button next to View / Control / Link (Color Space) makes the dialog encoders finer — Coarse ×1, Fine ×0.1, Increment ×0.01, remembered per user and per dialog. |
+| Special Dialog Tools (onPC only) | Shaper and Color special dialogs: a Resolution button next to View / Control / Link (Color Space) makes the dialog encoders finer — Coarse ×1, Fine ×0.1, Increment ×0.01, remembered per user and per dialog. Shaper: Mirror 1/3, Mirror 2/4 and Mirror Rot buttons in the encoder bar (the native Mirror Bar functions, hidden by default). |
 
 ## How it works
 - The plugin contains no mod; mods live on a USB key (`FDPlugins/MA3Mods/`).
